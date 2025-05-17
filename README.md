@@ -11,17 +11,20 @@ mvn test
 
 ## Project Structure
 ```
-└─ seolgi_timer
-   ├── pom.xml
-   ├── src
-   │   ├── main
-   │   │   └── java
-   │   │       └── com
-   │   │           └── timer
-   │   │               └── App.java
-   │   └── test
-   │       └── java
-   │           └── com
-   │               └── timer
-   │                   └── AppTest.java
+├── LICENSE
+├── README.md
+├── .gitignore
+└── seolgi_timer
+    ├── pom.xml
+    └── src
+        ├── main
+        │   └── java
+        │       └── com
+        │           └── timer
+        │               └── App.java
+        └── test
+            └── java
+                └── com
+                    └── timer
+                        └── AppTest.java
 ```
